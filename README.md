@@ -26,31 +26,29 @@ El proyecto está estructurado de la siguiente manera:
 ```
 Funcionarios/
 ├── src/
-│   ├── com/
-│   │   ├── funcionarios/
-│   │   │   ├── dao/
-│   │   │   │   ├── EmpleadoDAO.java
-│   │   │   ├── models/
-│   │   │   │   ├── Empleado.java
-│   │   │   ├── views/
-│   │   │   │   ├── MainView.java
-│   │   │   │   ├── RegistroView.java
-│   │   │   │   ├── ListaView.java
-│   │   ├── db/
-│   │   │   ├── Conexion.java
-│   ├── resources/
-│   │   ├── logo.png
-├── test/
-├── build.xml
+│   ├── com.iudigital.funcionarios/
+│   │   ├── FUNCIONARIOS.java
+│   ├── dao/
+│   │   ├── DAOFuncionarios.java
+│   ├── modelo/
+│   │   ├── Database.java
+│   │   ├── Funcionarios.java
+│   │   ├── Operaciones.java
+│   ├── vistas/
+│   │   ├── vistaFuncionarios.java
 ├── README.md
-├── funcionarios-app.jar
 ```
 
-- `src/com/funcionarios/dao`: contiene las clases para acceder a la base de datos mediante DAO.
-- `src/com/funcionarios/models`: contiene la definición de la clase `Empleado`.
-- `src/com/funcionarios/views`: contiene las clases que definen las interfaces gráficas de la aplicación.
-- `src/com/db`: contiene la clase `Conexion` para conectarse a la base de datos.
+- `src/dao/funcionarios/dao`: contiene las clases para acceder a la base de datos mediante DAO.
+- `src/modelo/funcionarios/models`: contiene la definición de la clase `Empleado`.
+- `src/vistas/funcionarios/views`: contiene las clases que definen las interfaces gráficas de la aplicación.
 - `README.md`: archivo con la información de la aplicación.
+
+## MODELO DE BASE DE DATOS
+![MODELO DE BASE DE DATOS](https://github.com/darvcodev/funcionarios-iudigital/blob/master/screenshots/modelado.png)
+
+## CRUD FUNCIONARIOS
+![CRUD FUNCIONARIOS](https://github.com/darvcodev/funcionarios-iudigital/blob/master/screenshots/CRUD-DA0-FUNCIONARIOS.png)
 
 ## Contribuir
 
